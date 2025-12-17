@@ -1,0 +1,24 @@
+{
+  "name": "anora/pizza-app",
+  "type": "project",
+  "require": {
+    "anora/lib": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/AnoraPankratova/library"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Anora Pankratova"
+    }
+  ],
+  "minimum-stability": "dev"
+}
